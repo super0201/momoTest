@@ -210,7 +210,7 @@ public class MomoTest2 {
                 while (note < soda * buy) {
                     
                     while (note != 10000 && note != 20000 && note != 50000 && note != 100000 && note != 200000 || note > 200000) {                    
-                        System.out.println("Insert right note as given above: ");
+                        System.out.print("Insert right note as given above: ");
                         int note1 = scanner.nextInt();
                         note = note1;
 
